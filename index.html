@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+
+    
+    <link rel="stylesheet" href="STYLE/reset.css">
+    <link rel="stylesheet" href="STYLE/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="IMG/logo_original.svg" type="image/x-icon">
+
+    <script type="text/javascript" charset="utf8" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <img src="IMG/Logo.svg" alt="Logo de Alura" >
+    </header>
+    <main>
+        
+       
+        <section class="contenedor1">
+            <div class="block glow">
+                <textarea name="" id="txtPrincipal" placeholder="Escribe tu  texto  aquí" ></textarea>
+            </div>
+
+            <div class="info">
+                <img src="IMG/!.svg" alt="" class="info-logo">
+                Solo letras minúsculas y sin acentos
+            </div>
+            
+            
+            <div class="botones" >
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="contenedor2">
+            <div class="block glow2">
+                <div id="imagen-texto" >
+                    <img src="IMG/Muneco.svg" alt="" >
+                    <h1>Ningún mensaje fue encontrado.</h1>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                
+                <textarea name="" id="mensaje2" hidden ></textarea>
+                <button id="btnCopiar" hidden>Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <h1>Copyright &copy;</h1>
+        <h1>Héctor Hugo Méndez Germán - Encriptador Alura</h1>
+        <div class="contenedor-logos">
+            <a href="" class="logo1">
+                <img src="IMG/github-na.svg" alt="" >
+            </a>
+            <a href="" class="logo2">
+                <img src="IMG/linkedin-na.svg" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
